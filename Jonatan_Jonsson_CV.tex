@@ -1,0 +1,160 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[overlapped]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=6.5in % increase textwidth to get smaller right margin
+\resumewidth=6.6in %increase textwidth to get smaller right margin
+\usepackage[utf8]{inputenc}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\usepackage{fancyhdr}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{lastpage}
+\pagestyle{fancy}
+
+
+\rhead {{\huge \bf{Jonatan Jönsson}} \hfill Västra Prinsgatan 12A\\37135 Karlskrona, Sweden \\(willing to relocate)\\
++46 705 475 383 / \href{mailto:jontejj@gmail.com}{jontejj@gmail.com}\\ 
+\href{http://www.kungenslya.se}{kungenslya.se} / 
+\href{https://github.com/jontejj}{github.com/jontejj} \\
+\href{http://linkedin.com/in/jonatanjoensson}{linkedin.com/in/jonatanjoensson}}
+
+\renewcommand{\headrulewidth}{0pt} % Removes the horizontal line between header and page
+
+\addtolength{\headheight}{\baselineskip}
+\textheight 10.0in
+\newsectionwidth{0.1in}
+
+%\cfoot{\thepage\ of \pageref{LastPage}} doesn't work with the hyperref package
+\begin{document} 
+\begin{resume}
+\vspace{1.2cm}
+\section{{\sc WORK EXPERIENCE}} 
+
+{\bf Software Engineer} Consultant \hfill Nov '10 - Current \\
+{\sl for Softhouse Consulting Baltic AB in Karlskrona}
+\begin{itemize}
+\itemsep -1pt
+\item \href{http://www.youtube.com/watch?v=htalgZCFWMI}{How To Clean Your Dirty Code}, Lightning talk at Leantribe in Växjö \hfill 2012-12-10
+	\\{\bf Keywords} Presentation, Refactoring, Clean Code, Mutation Testing, API design
+
+\item \href{https://github.com/jontejj/how-to-clean-your-dirty-code}{How To Clean Your Dirty Code}, Softhouse Campus seminar	\hfill 2012-11-29
+	\\{\bf Keywords} Course lecturer, Clean Code
+
+\item Spielo/Gtech/BossMedia in Växjö
+	\begin{itemize}
+	\itemsep -1pt
+	\item Gaming Management System (\href{http://www.spielog2.com/products/spielo-g2-gaming-management-system-(gms).aspx}{GMS)})\hfill Jan '13 - Current
+		\\GMS is the core in Spielos eco-system and is used  by users in
+		\\150 countries. It handles player finances, responsible gaming,
+		\\monitoring, statistics and works like a bank for the different game 
+		\\systems. It integrates with over 40 systems. I'm adding support for more.  
+		\\{\bf Technologies} Game Platform, Java, Spring, Guava, Hibernate, JIRA, 
+		\\Subversion, Jenkins, Ant
+	\itemsep -1pt
+	\item Adding new features to a poker platform that for example\hfill Apr '12 - Okt '12 
+	\\\href{http://www.svenskaspel.se/poker}{Svenska Spel} and \href{http://www.ipnpoker.com/}{IPN} is using. As we 	finished in 2 months instead of 6 
+	\\we got to work on their new java-based server as well. This included a \\two-week trip to Rome to secure an important 	delivery.	
+	\\{\bf Technologies} Poker, C++, Sybase, Boost, C\#, ASP.NET, 
+	\\Internationalization, i18n, iPad, Java, Protobuf, Riak, Maven, JIRA
+	\end{itemize}
+
+\item \href{http://www.ericsson.com/ourportfolio/telecom-operators/ericsson-charging-system?nav=marketcategory007%7Csubarea014}{Ericsson's Charging System} (the Service Data Point part)
+	\\A system for real-time rating of pre-paid calls, handling 1.4 billion subscribers.
+	\begin{itemize}
+	\itemsep -1pt
+ 	\item Performance degradation analyzer \hfill Nov '12 - Dec '12
+    		 \\After a quick look in JVisualVM I came up with a solution 
+		\\that decreased the CPU usage with 3\% per call.
+ 	\item Design Lead \hfill Aug '11 - Apr '12
+     		\\Suggested several development improvements that were accepted
+ 	\item Product Customization Developer \hfill Aug '11 - Apr '12
+     		\\Added support for IMS (IP Multimedia System)
+		\\{\bf Technologies} Geographically distributed team, Telecom, IMS, Java, Git,
+		\\Gerrit, Jenkins, SCONS, TimesTen, Solaris, Scrum
+ 	\item Design \& Maintenance \hfill Nov '10 - Aug '11
+     		\\Solved several critical bugs that caused the system to grind to a halt.
+		\\{\bf Technologies} Telecom, Bug-squashing, Java, C++, Clearcase, 
+		\\Reviewboard.org, Hudson, SCONS, TimesTen, Solaris, Kanban
+	\end{itemize}
+\end{itemize}
+
+{\bf Software Developer} Project employment \hfill Jun '10 - Okt '10 \\
+{\sl at BTH Innovation in Ronneby}
+\begin{itemize}
+\itemsep -1pt
+\item Developed an iPhone version of Hanashi (Chat application), for Sony Ericsson \\Mobile Communications. This was a continuation of our graduation project. 
+\\I was the first (among 10 other team members) to be selected to continue the project.
+\\Since then the app has been removed but while in App Store Nordic it 
+\\only received 5-star reviews.
+\\{\bf Technologies} Instant Messaging, Objective-C, iOS SDK, APNS, Java, Scrum
+\end{itemize}
+
+\vspace{1.2cm}
+\centerline{1 of 2}
+\newpage
+\section{{\sc EDUCATION}}
+
+{\bf Bachelor's Degree} in International Software Engineering \hfill Sep '07 - Jun '10\\
+{\sl from Blekinge Institute of Technology in Ronneby}
+
+{\bf Exchange Student} in Computer Science \hfill Aug '09 - Dec '09\\
+{\sl at Georgia Institute of Technology in Atlanta}
+\begin{itemize}
+\itemsep -1pt
+\item {\bf Multicore and GPU programming for Video Games}\\ 3D engine in MATLAB, Xbox 360 (XNA), Playstation 3 (Cell), Shaders 
+\item {\bf Computer and Network Security}\\ Implemented DES, AES, IDEA and Diffie Hellman in C++
+\item {\bf Introduction to Artificial Intelligence}\\ Tournament winner in writing an AI player (in LISP) \\for the board game called Isolation
+\item {\bf Computer and Society} \\ Wrote an essay about robot rights
+\end{itemize}
+
+{\bf Internship} as Software Architect \hfill Jan '09 - May '09 \\
+{\sl at Ericsson AB in Karlskrona}
+\begin{itemize}
+\itemsep -1pt
+\item Developed a testcase generator (in Java) for their charging system
+\end{itemize}
+
+{\bf  IT-Programme} with focus on network\hfill Aug '04 - Jun '07\\
+{\sl at the John Bauer Gymnasium in Hässleholm}
+\begin{itemize}
+\itemsep -1pt
+\item {\bf Student of the Year}  -- ``For excellent study results, a positive ambition and \\comradely behavior"
+\end{itemize}
+
+\section {{\sc SKILLS} - {\sl From high to low}}
+{\bf Solid skills with} Java, C\#, C++, Objective-C, Python, PHP, SQL, HTML, CSS, Javascript\\
+{\bf Have used} C, .NET, APS.NET, LISP, Riak, Sybase, TimesTen, CG, Assembler (MIPS), MATLAB, KSH, TCSH, TTCN3 \\
+{\bf Frameworks} Guava, Spring, Hibernate, Django, SDL, iOS SDK, XNA, Boost, Protobuf \\
+{\bf Operating Systems} Mac OS X, Windows, Ubuntu, Solaris\\
+{\bf Tools} Eclipse, Maven, Ant, XCode, Visual Studio, JIRA\\
+{\bf Processes} TDD, Pair Programming, Code reviews, Kanban, Scrum, XP\\
+{\bf VCS} Git, Subversion (SVN), Mercurial, ClearCase\\
+{\bf Spoken Languages} Native in swedish, fluent in english, limited in german \\
+
+\vspace{5.6cm}
+\centerline{2 of 2}
+%\section {{\sc REFERENCES}}
+%\begin{description}
+%\itemsep -1pt
+
+%\item Available upon request
+
+%\item [Erik Backlund] {\sl Hanashi project}, Sony Ericsson \\
+%+46 108019606, erik.backlund@sonyericsson.com
+
+%\item [Mikael Roos] {\sl Director of studies}, Blekinge Tekniska Högskola \\
+%+46 7034-021168, mikael.roos@bth.se
+
+%\item [Thomas Letterkrantz] {\sl DM TeC}, Softhouse \\
+%+46 768 832469, thomas.letterkrantz@softhouse.se
+
+%\item [Ulf Seijsing] {\sl Site Manager}, Softhouse \\
+%+46 768 832460, ulf.seijsing@softhouse.se
+
+%\end{description}
+\end{resume} 
+\end{document} 
+% Keywords: Software Engineer, Bachelor's Degree, Ericsson Charing System, SDP, iPhone, XNA, SDL, c++, Java, Objective-C, PHP
