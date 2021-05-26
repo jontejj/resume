@@ -14,14 +14,19 @@
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{helvetica}
 %\usepackage{lastpage}
-\pagestyle{fancy}
+\fancypagestyle{firstpage}
+{
+    \fancyhead[L]{}    
+    \fancyhead[R]{ {\huge \bf{Jonatan Jönsson}} \hfill Henrikdalsringen 73\\13132 Stockholm, Sweden\\
+	+46 705 475 383 / \href{mailto:jontejj@gmail.com}{jontejj@gmail.com}\\ 
+	\href{http://jontejj.github.io/resume/}{jontejj.github.io/resume} / 
+	\href{http://linkedin.com/in/jonatanjoensson}{linkedin.com/in/jonatanjoensson}}
+}
+\thispagestyle{firstpage}
+%\pagestyle{fancy}
 
 
-\rhead {{\huge \bf{Jonatan Jönsson}} \hfill Henrikdalsringen 73\\13132 Stockholm, Sweden\\
-+46 705 475 383 / \href{mailto:jontejj@gmail.com}{jontejj@gmail.com}\\ 
-\href{http://www.kungenslya.se}{kungenslya.se} / 
-\href{https://github.com/jontejj}{github.com/jontejj} \\
-\href{http://linkedin.com/in/jonatanjoensson}{linkedin.com/in/jonatanjoensson}}
+\rhead 
 
 \renewcommand{\headrulewidth}{0pt} % Removes the horizontal line between header and page
 
@@ -104,7 +109,7 @@
 \centerline{1 of 2}
 \newpage
 
-\item \href{http://www.ericsson.com/ourportfolio/telecom-operators/ericsson-charging-system?nav=marketcategory007%7Csubarea014}{Ericsson's Charging System} (the Service Data Point part)
+\item \href{http://www.ericsson.com}{Ericsson's Charging System} (the Service Data Point part)
 	\\A system for real-time rating of pre-paid calls, handling 1.4 billion subscribers.
 	\begin{itemize}
 	\itemsep -1pt
