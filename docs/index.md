@@ -1,13 +1,13 @@
-[Curriculum Vitae](binaries/Jonatan_Jonsson_eng_CV.pdf) (as PDF)
-
 [LinkedIn](http://se.linkedin.com/in/jonatanjoensson)
 
-- ![Peltarion user interface](images/Peltarion.png) [Peltarion](peltarion.com) is an end-to-end platform for designing, training, evaluating and deploying neural networks. I helped out with making it scale better and integrating it with various other services, such as Google sheets. Keywords: Java, Python, Keras, Tensorflow, Google Cloud, Azure
+[Curriculum Vitae](binaries/Jonatan_Jonsson_eng_CV.pdf) (as PDF)
+
+- ![Peltarion user interface](images/Peltarion.png) [Peltarion](https://www.peltarion.com) is an operational AI platform for designing, training, evaluating and deploying neural networks. I helped out with making it scale better and integrating it with various other services, such as Google sheets. Keywords: Java, Python, Keras, Tensorflow, Google Cloud, Azure, Machine learning, ML, Deep learning, AI
 
 - ![Fortnox logo](images/fortnox_logo_vit.svg) 
-  Was the software architect for [Fortnox Finans](fortnox.se) which have brought factoring into the 21st century. Took two years to B/E. Initial investment (6 million SEK) is now profited every 4 months (2019) Keywords: Dropwizard, jersey, jetty, guice.
+  Was the software architect for [Fortnox Finans](https://www.fortnox.se) which have brought factoring into the 21st century. Took two years to B/E. Initial investment (6 million SEK) is now profited every 4 months (2019) Keywords: Dropwizard, jersey, jetty, guice.
 
-- ![Sony Mobile logo](images/Sony_Mobile_ST_Ericsson_Lund.jpeg) Maintained [EMMA](http://software.sonymobile.com/emma/) and Update Engine for [Sony Mobile](sony.com). Keywords: Java, OSGI, Eclipse RCP, Ant, Git, Gerrit, Jira
+- ![Sony Mobile logo](images/Sony_Mobile_ST_Ericsson_Lund.jpeg) Maintained [EMMA](http://software.sonymobile.com/emma/) and Update Engine for [Sony Mobile](https://www.sony.com). Keywords: Java, OSGI, Eclipse RCP, Ant, Git, Gerrit, Jira
 
 - ![IST logo](images/IST.svg) Helped [IST](https://www.ist.com/se/) port their school system, Dexter, from C++ into Java.
 
