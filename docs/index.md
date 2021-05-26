@@ -52,6 +52,10 @@
 
 - ![Walls](images/11walls.png) A game I made with Adobe Director (not available anymore)
 
+- ![Movies](images/5movies.png) A massive index of most of my movies. I wrote the whole system using my knowledge in PHP/MySQL/CSS/Javascript. The movie info is scraped from IMDb using my own scraper. The GUI is under reconstruction. (i.e abandonded since Netflix appeared :))
+
+- ![Anonymous image upload](images/1imageupload.png) A page where you can upload images without hassling with stupid logins. You can set tags and albums on your images. Others can vote. Anyone can remove images unless you set a removal code. This project uses a lot of AJAX to speed up the browsing experience. (before imgur.com)
+
 - ![Tecnoscan](images/7tecnoscan.png) Tecnoscan Processteknik AB designs, sells, and manufactures individual components and complete facilities for all types of skilled handling of bulk materials. (they now use another site)
 
 - ![Beach House Music](images/8bhm.png) A portfolio page I redesigned and made dynamic (easy to manage) for a composer named Tobias Broström. (site is now using wordpress instead)
