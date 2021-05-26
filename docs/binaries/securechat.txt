@@ -1,0 +1,38 @@
+Jonatan Jonsson
+GTID: 902691192
+
+CS4237 - Computer & Network Security
+
+Final Project - A secure chat client that uses 
+	- DiffieHellman to establish a shared secret between two parties that don't know anything about eachother
+	- AES to encrypt the messages
+	- SHA-1 to check the integrity of the messages
+	- SDL threads for better chat functionality
+	
+Written and compiled for Windows 7 x64 edition by Visual Studio 2008 C++ express.
+	(Note: if you just want to run the program simply run "Secure chat.exe")
+
+Thanks to:
+	René Nyffenegger -	The socket class (Uses winsocks so the chat client is OS-dependant)
+	Paul E. Jones	 -	SHA-1 class
+	Raul N.Shakirov  -	For the CBigNum library
+
+Copyright (C) 2009 Jonatan Jonsson
+
+User Guide:
+
+1. First choose if you would like to be a server(Trinity) or a client(Neo) by entering a 1 or 2 respectivly
+2. If you chose server:
+		1. Connect from another computer or terminal to this server by starting this software on that computer
+		but instead of choosing server chose client instead.
+
+   If you chose client:
+		1. Enter the IP-adress of a server running this software in server mode and that awaits a connection, then press enter.
+			(Note: To see the IP-adress of the server run cmd, type ipconfig and look up your adress there)
+		2. Choose if you want a new prime to be generated or a pre generated one. 
+			(Note: the prime is sent in the clear so it should be fine to use the default prime)
+			
+3. Chat away, press enter to send messages.
+4. type quit or click on the x of the console window to exit.
+	(Note: the other party will know that you quit)
+5. Feel confident that your messages have been sent in a secure manner.   
