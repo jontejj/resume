@@ -1,4 +1,4 @@
-- ![Peltarion user interface](https://raw.githubusercontent.com/jontejj/resume/master/docs/images/Peltarion.png) [Peltarion](peltarion.com) is an end-to-end platform for designing, training, evaluating and deploying neural networks. I helped out with making it scale better and integrating it with various other services, such as Google sheets. Keywords: Java, Python, Keras, Tensorflow, Google Cloud, Azure
+- ![Peltarion user interface](images/Peltarion.png) [Peltarion](peltarion.com) is an end-to-end platform for designing, training, evaluating and deploying neural networks. I helped out with making it scale better and integrating it with various other services, such as Google sheets. Keywords: Java, Python, Keras, Tensorflow, Google Cloud, Azure
 
 - ![Fortnox logo](https://raw.githubusercontent.com/jontejj/resume/master/docs/images/fortnox_logo_vit.svg) 
   Was the software architect for [Fortnox Finans](fortnox.se) which have brought factoring into the 21st century. Took two years to B/E. Initial investment (6 million SEK) is now profited every 4 months (2019) Keywords: Dropwizard, jersey, jetty, guice.
@@ -17,4 +17,5 @@
 
 - ![Hanashi logo](https://raw.githubusercontent.com/jontejj/resume/master/docs/images/hanashi.png) Developed an iPhone version of Sony Ericsson's chat client Hanashi. They were so pleased that they later hired (as consultants) me and two others to finish the work.
 
+- [Dungeon Shooter](https://raw.githubusercontent.com/jontejj/resume/master/docs/images/16Dungeon.png) [download link](https://raw.githubusercontent.com/jontejj/resume/master/docs/binaries/Dungeon3D.zip) A First Person Shooter where you control a Hero fighting against the evil Monster named Ifrit. If Ifrit eats you up, you get dizzy and if you shoot him (with space or left mouse button) he reappears some place else. If you test pressing the F1-F7 buttons you will notice some effect changes.
 - And more!
