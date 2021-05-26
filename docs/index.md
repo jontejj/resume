@@ -1,4 +1,4 @@
-[Curriculum Vitae](../Jonatan_Jonsson_eng_CV.pdf) (as PDF)
+[Curriculum Vitae](binaries/Jonatan_Jonsson_eng_CV.pdf) (as PDF)
 
 [LinkedIn](http://se.linkedin.com/in/jonatanjoensson)
 
